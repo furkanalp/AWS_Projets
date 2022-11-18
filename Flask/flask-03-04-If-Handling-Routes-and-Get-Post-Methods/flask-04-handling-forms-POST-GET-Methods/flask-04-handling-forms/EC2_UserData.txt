@@ -1,0 +1,8 @@
+#!/bin/bash
+
+yum update -y
+yum install git -y
+pip3 install flask
+git clone https://github.com/furkanalp/AWS_Projects.git
+cd ./AWS_Projects/Flask/flask-05-handling-forms
+python3 app.py

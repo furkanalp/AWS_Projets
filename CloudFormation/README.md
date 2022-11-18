@@ -1,0 +1,1 @@
+Created Cloudfront with Private bir S3-Bucket via OIA(Origin Access Identity)
