@@ -4,11 +4,11 @@ Description: |
 Parameters:
 
   DomainName:
-    Description: DNS Name of existing Amazon Route 53 hosted zone. exp. cagatayakkiran.com
+    Description: DNS Name of existing Amazon Route 53 hosted zone. exp. devopsmikail.link
     Type: AWS::Route53::HostedZone::Id
 
   KittensDomainName:
-    Description: Full domain name for the App. ex. kittens.cagatayakkiran.com
+    Description: Full domain name for the App. ex. kittens.devopsmikail.link
     Type: String
     AllowedPattern: (?!-)[a-zA-Z0-9-.]{1,63}(?<!-)  
 
